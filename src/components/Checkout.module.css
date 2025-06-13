@@ -1,0 +1,23 @@
+.formSection
+{
+    background-color: #d9d8d8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 50%;
+}
+
+.formSection *
+{
+    margin: 0.75rem 0;
+}
+
+@media screen and (max-width: 676px) 
+{
+    .formSection
+    {
+        width: 100%;
+    }    
+}
